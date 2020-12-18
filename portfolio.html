@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="header">
         <nav>
-            <a href="#">WebStudio</a>
+            <a class="logo" href="#"><span class="logo-color-left">Web</span><span class="logo-color-right">Studio</span></a>
 
-            <ul>
+            <ul class="list-no-style">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="#">Портфолио</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="list-no-style connection">
             <li>
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -31,26 +34,26 @@
     <main>
         <!-- Портфолио -->
        <section>
-            <h1>Портфолио</h1>
-            <ul>
+            <h1 class="hidden">Портфолио</h1>
+            <ul class="list-no-style">
                 <li>
-                    <button type="button">Все</button>
+                    <button type="button" class="portfolio-snap">Все</button>
                 </li>
                 <li>
-                    <button type="button">Веб-сайты</button>
+                    <button type="button" class="portfolio-snap">Веб-сайты</button>
                 </li>
                 <li>
-                    <button type="button">Приложения</button>
+                    <button type="button" class="portfolio-snap">Приложения</button>
                 </li>
                 <li>
-                    <button type="button">Дизайн</button>
+                    <button type="button" class="portfolio-snap">Дизайн</button>
                 </li>
                 <li>
-                    <button type="button">Маркетинг</button>
+                    <button type="button" class="portfolio-snap">Маркетинг</button>
                 </li>
             </ul>
-            <h2>Приложения</h2>
-            <ul>
+            <h2 class="hidden">Приложения</h2>
+            <ul class="list-no-style apps">
                 <li>
                     <img src="./img-portfolio/img-port.1.jpg" alt="Веб-сайт" width="370" height="294" />
                     <h3>Технокряк</h3>
@@ -100,11 +103,11 @@
         </section>
         <!-- /Портфолио -->
     </main>
-    <footer>
+    <footer class="footer">
         <!-- Контакты -->
-        <a href="#">WebStudio</a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>   
+        <a class="logo" href="#"><span class="logo-color-left">Web</span><span class="logo-color-right">Studio</span></a>
+        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="list-no-style footer-connection">   
             <li>
                 <a href="mailto:info@devstudio.com">info@example.com</a>
             </li>

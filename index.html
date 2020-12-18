@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="header">
         <nav>
-            <a href="#">WebStudio</a>
+            <a class="logo" href="#"><span class="logo-color-left">Web</span><span class="logo-color-right">Studio</span></a>
 
-            <ul>
+            <ul class="list-no-style">
                 <li><a href="#">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="list-no-style connection">
             <li>
                 <a href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -31,14 +34,14 @@
     <main>
         <!-- Заголовок -->
        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+            <h1 class="headline">Эффективные решения для вашего бизнеса</h1>
+            <button class="snap">Заказать услугу</button>
        </section>
        <!-- /Заголовок -->
        <!-- Описание -->
        <section>
-           <h2>Преимущества нашей компании</h2>
-           <ul>
+           <h2 class="hidden">Преимущества нашей компании</h2>
+           <ul class="list-no-style description">
                <li>
                    <h3>Внимание к деталям</h3>
                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -61,7 +64,7 @@
        <!-- Картинки -->
        <section>
            <h2>Чем мы занимаемся</h2>
-           <ul>
+           <ul class="list-no-style">
                <li>
                    <img src="./img/img1.jpg" alt="Создает сайт" width="370" height="294" />
                </li>
@@ -77,7 +80,7 @@
        <!-- Наши мастера -->
        <section>
            <h2>Наша команда</h2>
-           <ul>
+           <ul class="list-no-style our-masters">
                <li>
                    <img src="./img/img-person1.jpg" alt="Игорь Демьяненко" width="279" height="260" />
                    <h3>Игорь Демьяненко</h3>
@@ -102,11 +105,11 @@
        </section>
        <!-- /Наши мастера -->
     </main>
-    <footer>
+    <footer class="footer">
         <!-- Контакты -->
-        <a href="#">WebStudio</a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>   
+        <a class="logo" href="#"><span class="logo-color-left">Web</span><span class="logo-color-right">Studio</span></a>
+        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="list-no-style footer-connection">
             <li>
                 <a href="mailto:info@devstudio.com">info@example.com</a>
             </li>
