@@ -4,6 +4,8 @@
     --second-color: #FFFFFF;
     --light-color: #757575;
     --dark-color: #2196F3;
+    --main-font-size: 14px;
+    --minor-font-size: 16px;
 }
 
 body {
@@ -18,7 +20,7 @@ a {
 
 nav a {
     font-weight: 500;
-    font-size: 14px;
+    font-size: var(--main-font-size);
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--first-color);
@@ -59,14 +61,26 @@ h2 {
     color: var(--first-color);
 }
 
+.logo-color-footer {
+    color:var(--second-color)
+}
+
 .header a:hover,
 .header a:focus {
     color: var(--dark-color);
 }
 
+.studio-color {
+    color: var(--dark-color);
+}
+
+.portfolio-color {
+    color: var(--dark-color);
+}
+
 .connection a {
     font-weight: 500;
-    font-size: 14px;
+    font-size: var(--main-font-size);
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--light-color);
@@ -74,6 +88,10 @@ h2 {
 /*=== /Шапка сайта ===*/
 
 /*=== Заголовок-студия ===*/
+.main-section {
+    background: #2F303A;
+}
+
 .headline {
     font-weight: 900;
     font-size: 44px;
@@ -88,28 +106,29 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: var(--minor-font-size);
     line-height: 1.875;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--second-color);
+    background: var(--dark-color);
 }
 /*=== /Заголовок-студия ===*/
 
 /*=== Описание-студия ===*/
-.description h3 {
+.topic {
     font-weight: 700;
-    font-size: 14px;
+    font-size: var(--main-font-size);
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--first-color);
 }
 
-.description p {
-    font-size: 14px;
+.description {
+    font-size: var(--main-font-size);
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--light-color);
@@ -117,17 +136,21 @@ h2 {
 /*=== /Описание-студия ===*/
 
 /*=== Наши мастера-студия ===*/
-.our-masters h3 {
+.our-team-section {
+    background: #F5F4FA;
+}
+
+.our-master {
     font-weight: 500;
-    font-size: 16px;
+    font-size: var(--minor-font-size);
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-color);
 }
 
-.our-masters p {
-    font-size: 16px;
+.calling {
+    font-size: var(--minor-font-size);
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
@@ -136,11 +159,15 @@ h2 {
 /*=== /Наши мастера-студия ===*/
 
 /*=== Контакты ===*/
+.footer {
+    background: #2F303A;
+}
+
 .address {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: var(--main-font-size);
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--second-color);
@@ -152,7 +179,7 @@ h2 {
 }
 
 .footer-connection a {
-    font-size: 14px;
+    font-size: var(--main-font-size);
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -160,15 +187,25 @@ h2 {
 /*=== /Контакты ===*/
 
 /*=== Портфолио ===*/
+.list-no-style button:hover,
+.list-no-style button:focus {
+    background-color: var(--dark-color);
+}
+
 .portfolio-snap {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: var(--minor-font-size);
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-color);
+}
+
+.all {
+    color: var(--second-color);
+    background-color: var(--dark-color);
 }
 
 .portfolio-snap:hover,
@@ -176,7 +213,7 @@ h2 {
     color: var(--second-color);
 }
 
-.apps h3 {
+.apps-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -184,11 +221,10 @@ h2 {
     color: var(--first-color);
 }
 
-.apps p {
-    font-size: 16px;
+.apps {
+    font-size: var(--minor-font-size);
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--light-color);
 }
 /*=== /Портфолио ===*/
-
