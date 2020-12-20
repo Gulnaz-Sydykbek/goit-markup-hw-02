@@ -193,7 +193,7 @@ h2 {
     background-color: var(--dark-color);
 }
 
-.portfolio-snap {
+.portfolio-button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -209,8 +209,8 @@ h2 {
     background-color: var(--dark-color);
 }
 
-.portfolio-snap:hover,
-.portfolio-snap:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
     color: var(--second-color);
 }
 
