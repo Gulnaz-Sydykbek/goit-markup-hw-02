@@ -4,6 +4,9 @@
     --second-color: #FFFFFF;
     --light-color: #757575;
     --dark-color: #2196F3;
+    --footer-conection-color: rgba(255, 255, 255, 0.6);
+    --background-light-color: #F5F4FA;
+    --background-dark-color: #2F303A;
     --main-font-size: 14px;
     --minor-font-size: 16px;
 }
@@ -89,7 +92,7 @@ h2 {
 
 /*=== Заголовок-студия ===*/
 .main-section {
-    background: #2F303A;
+    background: var(--background-dark-color);
 }
 
 .headline {
@@ -102,14 +105,12 @@ h2 {
     color: var(--second-color);
 }
 
-.snap {
+.button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: var(--minor-font-size);
     line-height: 1.875;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--second-color);
@@ -137,7 +138,7 @@ h2 {
 
 /*=== Наши мастера-студия ===*/
 .our-team-section {
-    background: #F5F4FA;
+    background: var(--background-light-color);
 }
 
 .our-master {
@@ -160,7 +161,7 @@ h2 {
 
 /*=== Контакты ===*/
 .footer {
-    background: #2F303A;
+    background: var(--background-dark-color);
 }
 
 .address {
@@ -182,7 +183,7 @@ h2 {
     font-size: var(--main-font-size);
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-conection-color);
 }
 /*=== /Контакты ===*/
 
